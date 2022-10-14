@@ -11,7 +11,7 @@ import HeaderContainer from "./Components/Header/HeaderContainer";
 import {Login} from "./Components/Login/Login";
 import DialogsContainer from "./Components/Dialogs/DialogsContainer";
 
-function App(props) {
+function App() {
     return (
             <div className={s.appWrapper}>
                 <HeaderContainer/>
